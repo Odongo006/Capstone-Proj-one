@@ -1,3 +1,243 @@
-body {
-  background-color: aqua;
+@import url("https://use.typekit.net/dax5tia.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset Styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+:root {
+  --clr-orange: #ec5242;
+  --clr-dark: #272a31;
+  --clr-gray: #d3d3d3;
+  --clr-white: #fff;
+  --clr-black: #000;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+    margin: 0 1rem;
+  }
+
+  .bar {
+    display: block;
+    width: 32px;
+    height: 4px;
+    margin: 5px ;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+  }
+
+  /* Front page */
+.event-head {
+    padding: 5rem 1rem;
+    background-image: url(imgs/output-bg.png), url(imgs/black-red.svg), url(imgs/checkbox.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 100% 0, 76% 300px, 92% 400px;
+    background-size: cover, 100px 100px, 80px 80px;
+  }
+
+  .event-greeting {
+    padding-bottom: 1rem;
+    color: var(--clr-orange);
+  }
+  
+  .event-line h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 45px;
+    padding-bottom: 1rem;
+  }
+  
+  .event-line p {
+    padding: 1rem;
+    background-color: rgb(247, 247, 248);
+    color: var(--clr-dark);
+    outline: 2px solid var(--clr-white);
+    max-width: 40rem;
+    font-size: 12px;
+    font-size: 0.7rem;
+  }
+
+  .event-date {
+    color: var(--clr-black);
+    padding: 1rem 0;
+    font-size: 1.3rem;
+  }
+  
+  .event-date h2 {
+    font-size: 1.3rem;
+  }
+  
+  .event-date p {
+    font-size: 0.8rem;
+  }
+
+  .rainbow-text {
+    background:
+      conic-gradient(
+        #ca4246 16.666%,
+        #e16541 46.666%,
+        #e16541 33.333%,
+        #f18f43 63.333%,
+        #f18f43 50%,
+        #a7489b 83.333%
+      );
+    background-size: 57%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+/* Feature */
+.program {
+    background-color: var(--clr-dark);
+    background-image: url(imgs/fe-pattern_bg.png);
+  }
+  
+  .program h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--clr-gray);
+    padding: 1rem;
+  }
+  
+  .program h2::before {
+    content: '';
+    background: var(--clr-orange);
+    display: block;
+    width: 40px;
+    height: 2px;
+    position: relative;
+    top: 43px;
+    left: 95px;
+  }
+  
+  .program-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 1rem;
+  }
+  
+  .program-card {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    align-items: center;
+    cursor: pointer;
+    padding: 1rem;
+    background-color: rgba(200, 200, 200, 0.1);
+  }
+  
+  .program-card:hover {
+    outline: 2px solid var(--clr-gray);
+    transform: scale(1.1);
+    transition: 0.7s ease;
+  }
+  
+  .program-card h3 {
+    color: var(--clr-orange);
+    line-height: 35px;
+    font-size: 0.8rem;
+    margin-left: 8px;
+  }
+  
+  .program-card img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .program-card p {
+    color: var(--clr-gray);
+    font-size: 0.7rem;
+    line-height: 12px;
+  }
+  
+  .program a {
+    font-size: 1px;
+    display: flex;
+    justify-content: center;
+    color: var(--clr-white);
+  }
+  
+  .program a::before {
+    content: 'Join Proud 2 Pay 2022';
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 30px;
+    position: relative;
+    background-color: #ff3e25;
+    bottom: 1px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: var(--clr-white);
+    text-align: center;
+  }
+
+  .top-nav {
+    display: none;
+  }
+
+/* 375px Screen breakpoint */
+@media screen and (min-width: 375px) {
+    /* Front Page */
+    .event-head {
+      padding: 7rem 1rem;
+    }
+  
+    /* Feature */
+    .program-list {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 1rem;
+      gap: 5px;
+    }
+  
+    .program-card img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .program-title {
+      font-size: 16px;
+    }
+  
+    .program-card p {
+      font-size: 12px;
+    }
+  
+    .program a {
+      font-size: 0;
+      text-decoration: none;
+    }
+  
+    .program-card {
+      display: grid;
+      grid-template-columns: 70px 1fr 2fr;
+      flex-direction: row;
+      text-align: left;
+      padding: 1rem 0.5rem;
+    }
+  
+    .program a::before {
+      content: 'Buy Proud 2 Pay Campaign Ticket';
+      display: block;
+      width: 220px;
+      height: 30px;
+      position: relative;
+      background-color: #ff3e25;
+      bottom: 20px;
+      padding: 1rem;
+      font-size: 1.2rem;
+      color: var(--clr-white);
+      text-align: center;
+    }
+    
+  }
