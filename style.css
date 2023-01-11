@@ -101,7 +101,7 @@
 /* Front page */
 .event-head {
   padding: 5rem 1rem;
-  background-image: url(imgs/output-bg.png), url(imgs/black-red.svg), url(imgs/checkbox.svg);
+  background-image: url(imgs/bckgrnd2.jpg), url(imgs/black-red.svg), url(imgs/checkbox.svg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: 100% 0, 76% 300px, 92% 400px;
   background-size: cover, 100px 100px, 80px 80px;
@@ -413,6 +413,14 @@
     padding: 7rem 1rem;
   }
 
+  .event-head {
+    padding: 5rem 1rem;
+    background-image: url(imgs/code2.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 100% 0, 76% 300px, 92% 400px;
+    background-size: cover, 100px 100px, 80px 80px;
+  }
+
   /* Feature */
   .program-list {
     display: flex;
@@ -493,6 +501,14 @@
 @media screen and (min-width: 768px) {
   .hamburger {
     display: none;
+  }
+
+  .event-head {
+    padding: 5rem 1rem;
+    background-image: url(imgs/bckgrnd2.jpg), url(imgs/black-red.svg), url(imgs/checkbox.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 100% 0, 76% 300px, 92% 400px;
+    background-size: cover, 100px 100px, 80px 80px;
   }
 
   /* Navbar */
