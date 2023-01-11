@@ -34,9 +34,6 @@
 }
 
 /* Hamburger menu */
-.top-nav {
-  display: none;
-}
 
 .hamburger {
   display: block;
@@ -66,8 +63,7 @@
   transform: translateY(-8px) rotate(-45deg);
 }
 
-
-  /* Navbar */
+/* Navbar */
 .navbar {
   min-height: 70px;
   display: flex;
@@ -102,192 +98,191 @@
   display: none;
 }
 
-  /* Front page */
+/* Front page */
 .event-head {
-    padding: 5rem 1rem;
-    background-image: url(imgs/output-bg.png), url(imgs/black-red.svg), url(imgs/checkbox.svg);
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 100% 0, 76% 300px, 92% 400px;
-    background-size: cover, 100px 100px, 80px 80px;
-  }
+  padding: 5rem 1rem;
+  background-image: url(imgs/output-bg.png), url(imgs/black-red.svg), url(imgs/checkbox.svg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 100% 0, 76% 300px, 92% 400px;
+  background-size: cover, 100px 100px, 80px 80px;
+}
 
-  .event-greeting {
-    padding-bottom: 1rem;
-    color: var(--clr-orange);
-  }
-  
-  .event-line h1 {
-    font-weight: 900;
-    font-size: 2.5rem;
-    line-height: 45px;
-    padding-bottom: 1rem;
-  }
-  
-  .event-line p {
-    padding: 1rem;
-    background-color: rgb(247, 247, 248);
-    color: var(--clr-dark);
-    outline: 2px solid var(--clr-white);
-    max-width: 40rem;
-    font-size: 12px;
-    font-size: 0.7rem;
-  }
+.event-greeting {
+  padding-bottom: 1rem;
+  color: var(--clr-orange);
+}
 
-  .event-date {
-    color: var(--clr-black);
-    padding: 1rem 0;
-    font-size: 1.3rem;
-  }
-  
-  .event-date h2 {
-    font-size: 1.3rem;
-  }
-  
-  .event-date p {
-    font-size: 0.8rem;
-  }
+.event-line h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 45px;
+  padding-bottom: 1rem;
+}
 
-  .rainbow-text {
-    background:
-      conic-gradient(
-        #ca4246 16.666%,
-        #e16541 46.666%,
-        #e16541 33.333%,
-        #f18f43 63.333%,
-        #f18f43 50%,
-        #a7489b 83.333%
-      );
-    background-size: 57%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+.event-line p {
+  padding: 1rem;
+  background-color: rgb(247, 247, 248);
+  color: var(--clr-dark);
+  outline: 2px solid var(--clr-white);
+  max-width: 40rem;
+  font-size: 12px;
+  font-size: 0.7rem;
+}
 
+.event-date {
+  color: var(--clr-black);
+  padding: 1rem 0;
+  font-size: 1.3rem;
+}
 
-  .nav-menu-main {
-    display: block;
-    position: absolute;
-    background: var(--clr-orange);
-    top: 0;
-    width: 100%;
-    line-height: 60px;
-    height: 100vh;
-    font-size: 1.5rem;
-    text-align: left;
-    font-weight: 600;
-    opacity: 0.9;
-    padding-top: 3.5rem;
-    list-style: none;
-    padding-left: 2rem;
-  }
+.event-date h2 {
+  font-size: 1.3rem;
+}
+
+.event-date p {
+  font-size: 0.8rem;
+}
+
+.rainbow-text {
+  background:
+    conic-gradient(
+      #ca4246 16.666%,
+      #e16541 46.666%,
+      #e16541 33.333%,
+      #f18f43 63.333%,
+      #f18f43 50%,
+      #a7489b 83.333%
+    );
+  background-size: 57%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-menu-main {
+  display: block;
+  position: absolute;
+  background: var(--clr-orange);
+  top: 0;
+  width: 100%;
+  line-height: 60px;
+  height: 100vh;
+  font-size: 1.5rem;
+  text-align: left;
+  font-weight: 600;
+  opacity: 0.9;
+  padding-top: 3.5rem;
+  list-style: none;
+  padding-left: 2rem;
+}
 
 /* Feature */
 .program {
-    background-color: var(--clr-dark);
-    background-image: url(imgs/fe-pattern_bg.png);
-  }
-  
-  .program h2 {
-    display: flex;
-    justify-content: center;
-    color: var(--clr-gray);
-    padding: 1rem;
-  }
-  
-  .program h2::before {
-    content: '';
-    background: var(--clr-orange);
-    display: block;
-    width: 40px;
-    height: 2px;
-    position: relative;
-    top: 43px;
-    left: 95px;
-  }
-  
-  .program-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    padding: 1rem;
-  }
-  
-  .program-card {
-    display: grid;
-    grid-template-columns: auto 1fr 1fr;
-    align-items: center;
-    cursor: pointer;
-    padding: 1rem;
-    background-color: rgba(200, 200, 200, 0.1);
-  }
-  
-  .program-card:hover {
-    outline: 2px solid var(--clr-gray);
-    transform: scale(1.1);
-    transition: 0.7s ease;
-  }
-  
-  .program-card h3 {
-    color: var(--clr-orange);
-    line-height: 35px;
-    font-size: 0.8rem;
-    margin-left: 8px;
-  }
-  
-  .program-card img {
-    width: 40px;
-    height: 40px;
-  }
-  
-  .program-card p {
-    color: var(--clr-gray);
-    font-size: 0.7rem;
-    line-height: 12px;
-  }
+  background-color: var(--clr-dark);
+  background-image: url(imgs/fe-pattern_bg.png);
+}
 
-  .closeIcon {
-    display: block;
-    width: 10px;
-    height: 10px;
-    font-size: 50px;
-    color: black;
-    margin: 0 2rem 10rem 0;
-    cursor: pointer;
-  }
+.program h2 {
+  display: flex;
+  justify-content: center;
+  color: var(--clr-gray);
+  padding: 1rem;
+}
 
-  .mobileNavBar2 {
-    margin-top: 5rem;
-  }
-  
-  .program a {
-    font-size: 1px;
-    display: flex;
-    justify-content: center;
-    color: var(--clr-white);
-  }
-  
-  .program a::before {
-    content: 'Join Proud 2 Pay 2022';
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 220px;
-    height: 30px;
-    position: relative;
-    background-color: #ff3e25;
-    bottom: 1px;
-    padding: 1rem;
-    font-size: 1.2rem;
-    color: var(--clr-white);
-    text-align: center;
-  }
+.program h2::before {
+  content: '';
+  background: var(--clr-orange);
+  display: block;
+  width: 40px;
+  height: 2px;
+  position: relative;
+  top: 43px;
+  left: 95px;
+}
 
-  .top-nav {
-    display: none;
-  }
+.program-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 1rem;
+}
 
-  /* Speakers */
+.program-card {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem;
+  background-color: rgba(200, 200, 200, 0.1);
+}
+
+.program-card:hover {
+  outline: 2px solid var(--clr-gray);
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
+
+.program-card h3 {
+  color: var(--clr-orange);
+  line-height: 35px;
+  font-size: 0.8rem;
+  margin-left: 8px;
+}
+
+.program-card img {
+  width: 40px;
+  height: 40px;
+}
+
+.program-card p {
+  color: var(--clr-gray);
+  font-size: 0.7rem;
+  line-height: 12px;
+}
+
+.closeIcon {
+  display: block;
+  width: 10px;
+  height: 10px;
+  font-size: 50px;
+  color: black;
+  margin: 0 2rem 10rem 0;
+  cursor: pointer;
+}
+
+.mobileNavBar2 {
+  margin-top: 5rem;
+}
+
+.program a {
+  font-size: 1px;
+  display: flex;
+  justify-content: center;
+  color: var(--clr-white);
+}
+
+.program a::before {
+  content: 'Join Proud 2 Pay 2022';
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 30px;
+  position: relative;
+  background-color: #ff3e25;
+  bottom: 1px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: var(--clr-white);
+  text-align: center;
+}
+
+.top-nav {
+  display: none;
+}
+
+/* Speakers */
 .speakers {
   display: flex;
   flex-direction: column;
@@ -368,70 +363,113 @@
   line-height: 15px;
 }
 
+/* Sponsors */
+.sponsor {
+  background-color: var(--clr-dark);
+  padding: 1rem 0;
+}
+
+.sponsor h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  line-height: 45px;
+  color: var(--clr-white);
+}
+
+.sponsor h2::after {
+  content: '';
+  display: block;
+  position: relative;
+  top: 30px;
+  right: 70px;
+  width: 36px;
+  height: 1px;
+  background-color: var(--clr-orange);
+}
+
+.sponsor-brand {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.sponsor-list {
+  display: flex;
+  margin: 10px;
+}
+
+.spon1 {
+  width: 100%;
+}
+
 /* 375px Screen breakpoint */
 @media screen and (min-width: 375px) {
-    /* Front Page */
-    .event-head {
-      padding: 7rem 1rem;
-    }
-  
-    /* Feature */
-    .program-list {
-      display: flex;
-      flex-direction: column;
-      padding: 2rem 1rem;
-      gap: 5px;
-    }
+  /* Front Page */
+  .event-head {
+    padding: 7rem 1rem;
+  }
 
-    .nav-menu-main {
-      display: none;
-    }
+  /* Feature */
+  .program-list {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 5px;
+  }
 
-    .nav-brand {
-      display: none;
-    }
-  
-    .program-card img {
-      width: 50px;
-      height: 50px;
-    }
-  
-    .program-title {
-      font-size: 16px;
-    }
-  
-    .program-card p {
-      font-size: 12px;
-    }
-  
-    .program a {
-      font-size: 0;
-      text-decoration: none;
-    }
-  
-    .program-card {
-      display: grid;
-      grid-template-columns: 70px 1fr 2fr;
-      flex-direction: row;
-      text-align: left;
-      padding: 1rem 0.5rem;
-    }
-  
-    .program a::before {
-      content: 'Buy Proud 2 Pay Campaign Ticket';
-      display: block;
-      width: 220px;
-      height: 30px;
-      position: relative;
-      background-color: #ff3e25;
-      bottom: 20px;
-      padding: 1rem;
-      font-size: 1.2rem;
-      color: var(--clr-white);
-      text-align: center;
-    }
+  .nav-menu-main {
+    display: none;
+  }
 
-      /* Speakers */
+  .nav-brand {
+    display: none;
+  }
+
+  .program-card img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .program-title {
+    font-size: 16px;
+  }
+
+  .program-card p {
+    font-size: 12px;
+  }
+
+  .program a {
+    font-size: 0;
+    text-decoration: none;
+  }
+
+  .program-card {
+    display: grid;
+    grid-template-columns: 70px 1fr 2fr;
+    flex-direction: row;
+    text-align: left;
+    padding: 1rem 0.5rem;
+  }
+
+  .program a::before {
+    content: 'Buy Proud 2 Pay Campaign Ticket';
+    display: block;
+    width: 220px;
+    height: 30px;
+    position: relative;
+    background-color: #ff3e25;
+    bottom: 20px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: var(--clr-white);
+    text-align: center;
+  }
+
+  /* Speakers */
   .speakers {
     display: flex;
     flex-direction: column;
@@ -450,15 +488,14 @@
     width: 130px;
     height: 130px;
   }
-    
-  }
+}
 
 @media screen and (min-width: 768px) {
-    .hamburger {
-      display: none;
-    }
+  .hamburger {
+    display: none;
+  }
 
-      /* Navbar */
+  /* Navbar */
   .navbar {
     display: flex;
     flex-direction: row;
@@ -548,7 +585,7 @@
     font-size: 0.8rem;
   }
 
-    /* Top-nav */
+  /* Top-nav */
   .top-nav {
     display: flex;
     justify-content: end;
@@ -574,7 +611,7 @@
     transform: scale(1.2);
   }
 
-    /* Front Page */
+  /* Front Page */
   .event-head {
     padding: 3rem 5rem;
   }
@@ -618,7 +655,7 @@
     font-weight: 500;
   }
 
-    /* Feature */
+  /* Feature */
   .program {
     padding: 0 5rem;
   }
@@ -660,36 +697,37 @@
   .program a::before {
     display: none;
   }
-    /* Speakers */
-    .speakers {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      padding: 2rem 5rem;
-    }
-  
-    .speakers-container h2 {
-      padding: 2rem 0;
-    }
-  
-    .team {
-      padding: 1.2rem 0 0 1.2rem;
-      background-image: url(imgs/gray-mobile-check.svg);
-      background-repeat: no-repeat;
-      background-position: -7px 3px;
-      background-size: 80px 60px;
-    }
-  
-    .team h3 {
-      font-size: 1rem;
-    }
-  
-    .team h6 {
-      padding-bottom: 0.5rem;
-      font-size: 0.7rem;
-      line-height: 10px;
-    }
-  
-    .team p {
-      line-height: 12px;
-    }
+
+  /* Speakers */
+  .speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 5rem;
+  }
+
+  .speakers-container h2 {
+    padding: 2rem 0;
+  }
+
+  .team {
+    padding: 1.2rem 0 0 1.2rem;
+    background-image: url(imgs/gray-mobile-check.svg);
+    background-repeat: no-repeat;
+    background-position: -7px 3px;
+    background-size: 80px 60px;
+  }
+
+  .team h3 {
+    font-size: 1rem;
+  }
+
+  .team h6 {
+    padding-bottom: 0.5rem;
+    font-size: 0.7rem;
+    line-height: 10px;
+  }
+
+  .team p {
+    line-height: 12px;
+  }
 }
