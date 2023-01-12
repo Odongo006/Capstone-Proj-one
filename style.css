@@ -406,6 +406,23 @@
   width: 100%;
 }
 
+/* .blog {
+  display: flex;
+}
+
+.blog1 {
+  display: flex;
+  margin: 25rem;
+}
+
+.rightimg {
+
+}
+
+.leftimg {
+
+} */
+
 /* 375px Screen breakpoint */
 @media screen and (min-width: 375px) {
   /* Front Page */
