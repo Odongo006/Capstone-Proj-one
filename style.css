@@ -411,10 +411,6 @@
   /* Front Page */
   .event-head {
     padding: 7rem 1rem;
-  }
-
-  .event-head {
-    padding: 5rem 1rem;
     background-image: url(imgs/code2.jpg);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 100% 0, 76% 300px, 92% 400px;
@@ -628,9 +624,6 @@
   }
 
   /* Front Page */
-  .event-head {
-    padding: 3rem 5rem;
-  }
 
   .event-line {
     margin-bottom: 1rem;
