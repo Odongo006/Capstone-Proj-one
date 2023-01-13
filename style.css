@@ -101,7 +101,7 @@
 /* Front page */
 .event-head {
   padding: 5rem 1rem;
-  background-image: url(imgs/bckgrnd2.jpg), url(imgs/black-red.svg), url(imgs/checkbox.svg);
+  background-image: url(imgs/website\ background25.png), url(imgs/black-red.svg), url(imgs/checkbox.svg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: 100% 0, 76% 300px, 92% 400px;
   background-size: cover, 100px 100px, 80px 80px;
@@ -336,15 +336,16 @@
 }
 
 .team p {
-  font-size: 8px;
+  font-size: 11px;
   line-height: 10px;
+  margin-top: 5px;
 }
 
 .team h6 {
   font-style: italic;
   padding-bottom: 0.5rem;
+  font-size: 0.8rem;
   font-weight: 400;
-  font-size: 0.6rem;
   line-height: 10px;
   color: var(--clr-orange);
 }
@@ -406,29 +407,39 @@
   width: 100%;
 }
 
-/* .blog {
+/* Footer */
+.info {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
 }
 
-.blog1 {
-  display: flex;
-  margin: 25rem;
+.info-credit {
+  max-width: 60%;
+  font-size: 0.5rem;
 }
 
-.rightimg {
-
+.info-credit a {
+  color: var(--clr-dark);
+  font-weight: 900;
 }
 
-.leftimg {
+.info-content span {
+  font-size: 0.3rem;
+}
 
-} */
+.info-content .nav-brands {
+  font-size: 3rem;
+  color: var(--clr-dark);
+}
 
 /* 375px Screen breakpoint */
 @media screen and (min-width: 375px) {
   /* Front Page */
   .event-head {
     padding: 7rem 1rem;
-    background-image: url(imgs/code2.jpg);
+    background-image: url(imgs/website-bg.png), url(imgs/black-red.svg), url(imgs/checkbox.svg);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 100% 0, 76% 300px, 92% 400px;
     background-size: cover, 100px 100px, 80px 80px;
@@ -509,6 +520,24 @@
     width: 130px;
     height: 130px;
   }
+
+  /* Footer */
+  .info {
+    padding: 1rem 1.5rem;
+  }
+
+  .info-content .nav-brands {
+    font-size: 1.25rem;
+    margin-right: 1.5rem;
+  }
+
+  .info-content span {
+    font-size: 0.6rem;
+  }
+
+  .info-credit {
+    font-size: 0.6rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -518,7 +547,7 @@
 
   .event-head {
     padding: 5rem 1rem;
-    background-image: url(imgs/bckgrnd2.jpg), url(imgs/black-red.svg), url(imgs/checkbox.svg);
+    background-image: url(imgs/website\ background25.png), url(imgs/black-red.svg), url(imgs/checkbox.svg);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 100% 0, 76% 300px, 92% 400px;
     background-size: cover, 100px 100px, 80px 80px;
@@ -744,16 +773,26 @@
   }
 
   .team h3 {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .team h6 {
     padding-bottom: 0.5rem;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     line-height: 10px;
   }
 
   .team p {
     line-height: 12px;
+  }
+
+  /* Footer */
+  .info {
+    padding: 3rem 5rem;
+  }
+
+  .info-content .nav-brands {
+    font-size: 2rem;
+    color: black;
   }
 }
