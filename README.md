@@ -121,7 +121,7 @@ If you like this project give it a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for the linters pratice
+I would like to thank Cindy Shin, the author of the original design of this website.
 
 <!-- LICENSE -->
 
