@@ -214,6 +214,23 @@
     padding: 0 6rem;
   }
 
+  .mobileNavBar {
+    display: none;
+    position: absolute;
+    background: var(--clr-orange);
+    top: 0;
+    width: 100%;
+    line-height: 60px;
+    height: 100vh;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 600;
+    opacity: 0.9;
+    padding-top: 3.5rem;
+    list-style: none;
+    padding-left: 2rem;
+  }
+
   .past .past-view {
     display: flex;
     flex-direction: row;
