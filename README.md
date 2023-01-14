@@ -40,6 +40,9 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+## 💻 Project Description
+- video [@Loom](https://www.loom.com/share/c63202e2c87e49b29143276848466c2f)
+
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
