@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable no-unused-vars */
 /* eslint-disable linebreak-style */
 const hamburgerbtn = document.querySelector('.hamburger');
@@ -13,8 +14,6 @@ const home = document.getElementById('home');
 const Program = document.getElementById('program');
 const Sponsors = document.getElementById('sponsor');
 const Campaign = document.getElementById('campaign');
-
-
 
 const openMenu = function MenuOpen() {
   menuNav.style.display = 'flex';
