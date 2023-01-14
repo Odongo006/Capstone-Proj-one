@@ -417,7 +417,7 @@
 
 .info-credit {
   max-width: 60%;
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
 
 .info-credit a {
@@ -520,6 +520,34 @@
     width: 130px;
     height: 130px;
   }
+
+  .team h3 {
+    font-size: 2.5rem;
+    font-size: 1.2rem;
+    line-height: 25px;
+  }
+
+  .team h6 {
+    font-size: small;
+    line-height: 15px;
+  }
+
+  .team p {
+    font-size: medium;
+    line-height: 15px;
+  }
+
+  .team {
+    padding: 0.6rem 0 0 0.6rem;
+    background-image: url(imgs/box-black.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 60px 60px;
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0;
+  }
+
 
   /* Footer */
   .info {
@@ -773,17 +801,21 @@
   }
 
   .team h3 {
-    font-size: 1.3rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
   .team h6 {
     padding-bottom: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 1.05rem;
+    margin: auto;
     line-height: 10px;
   }
 
   .team p {
-    line-height: 12px;
+    line-height: 20px;
+    font-size: medium;
+    word-spacing: 3px;
   }
 
   /* Footer */

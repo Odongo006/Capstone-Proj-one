@@ -22,19 +22,19 @@ const ListObj = [{
   name: 'Kelly Householder',
   role: 'Chief Executive Officer for solutions and technology',
   desc: 'Kelly empowers hundreds of thousands of ClickBank partners worldwide with the tools, and platform they crave to achieve their entrepreneurial goals.',
-  img: 'imgs/modern-business-woman-portrait.jpg',
+  img: 'imgs/Kelly-clickbank.jpeg',
 },
 {
   name: 'Chad Blodgett',
   role: 'Chief Revenue Officer of revenue driving teams',
   desc: 'Chad brings 18 years of experience building high performing, revenue driving teams within startups as well as inside large publicly traded enterprises.',
-  img: 'imgs/darkskin.jpg',
+  img: 'imgs/Chad-Blodgett-clickbank.jpeg',
 },
 {
   name: 'Jason Scherer',
   role: 'Chief Technical Officer focused on enterprise organizations.',
   desc: 'Scherer believes in the importance of teamwork as much as technology, and is passionate about building a high-performing organizations to drive innovation.',
-  img: 'imgs/Ryan-clickbank.jpeg',
+  img: 'imgs/Jason-clickbank.jpeg',
 },
 {
   name: 'Ryan Vestal',
@@ -46,13 +46,13 @@ const ListObj = [{
   name: 'Jennifer Beevers',
   role: 'Vice President of Customer Advocacy and Compliance',
   desc: 'Jen oversees the Business Product Approval Team, the Physical Product Compliance Team, and the Risk Team which manages fraud control.',
-  img: 'imgs/professional-smiling-woman.jpg',
+  img: 'imgs/Ryan-clickbank.jpeg',
 },
 {
   name: 'Jenny Shelton',
   role: 'Vice President of Talent.',
   desc: 'Jenny focuses on creating innovative ways to attract and retain top talent, and empower all ClickBank team members to be the best version of themselves.',
-  img: 'imgs/Jenny-clickbank.jpeg',
+  img: 'imgs/Jen-clickbank.jpeg',
 },
 ];
 
