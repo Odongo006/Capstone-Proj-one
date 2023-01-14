@@ -6,12 +6,14 @@ const closeBtn = document.querySelector('.closeIcon');
 
 const openMenu = function MenuOpen() {
   menuNav.style.display = 'flex';
+  hamburgerbtn.style.display = 'none';
 };
 
 hamburgerbtn.addEventListener('click', openMenu);
 
 const closeMenu = function MenuClose() {
   menuNav.style.display = 'none';
+  hamburgerbtn.style.display = 'block';
 };
 
 closeBtn.addEventListener('click', closeMenu);
